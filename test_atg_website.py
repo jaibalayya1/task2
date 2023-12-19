@@ -3,7 +3,7 @@ from selenium import webdriver
 
 class TestATGWebsite(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()  # You may need to download and set the path for the WebDriver (e.g., ChromeDriver)
+        self.driver = webdriver.Chrome()  
 
     def test_website_loads(self):
         self.driver.get("https://atg.world")
